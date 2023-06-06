@@ -1,11 +1,7 @@
-html {
-  background-color: #ffffff;
-}
 
 body {
   max-width: 320px;
   margin: auto;
-  background-image: url(../img/fond_peinture.jpg);
 }
 
 img {
