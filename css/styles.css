@@ -89,7 +89,7 @@ h2 {
   -webkit-text-stroke: #000000 1.25px;
 }
 
-.text, .hours, .misterflow, .foodtruck {
+.text, .hours, .misterflow {
   background-color: #000000bb;
   border: #ffffff solid 3px;
   font-size: 13px;
@@ -128,7 +128,6 @@ h3 {
 }
 
 .hours {
-  margin-bottom: 30px;
   padding: 10px 30px 20px;
   text-align: center;
 }
@@ -146,3 +145,42 @@ h5 {
   text-align: left;
 }
 
+h4 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: auto;
+  padding: 30px 0 20px;
+}
+
+.misterflow {
+  margin-top: 25px;
+  padding: 0 13px;
+}
+
+.rider {
+  max-width: 220px;
+  margin: auto;
+}
+
+.legend {
+  font-size: 11px;
+  margin-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.foodtruck {
+  font-size: 12px;
+  padding: 0 15px 10px;
+}
+
+.foodtruck h5 {
+  margin-bottom: 15px;
+}
+
+.secondclip {
+  background-color: #ffffff;
+  border: #000000 solid 2px;
+  height: 4px;
+  max-width: 210px;
+}
