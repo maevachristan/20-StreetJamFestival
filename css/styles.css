@@ -20,6 +20,7 @@ p {
 
 h2, h3, h4, h5, a {
   font-family: 'Passion One', cursive;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -60,10 +61,88 @@ header .polygon {
   margin: 20px 0 5px;
 }
 
-header a {
-  color: #ffffff;
+.polygonfirst {
+  max-width: 185px;
+  margin-top: 45px;
 }
 
-header .sticker {
+header a {
+  color: #000000;
+  font-size: 23px;
+}
+
+.sticker {
   max-width: 50px;
 }
+
+.firstclip {
+  background-color: #ffffff;
+  border: #000000 solid 3px;
+  height: 8px;
+  max-width: 245px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 45px;
+  margin: 55px 0;
+  -webkit-text-stroke: #000000 1.25px;
+}
+
+.text, .hours, .misterflow, .foodtruck {
+  background-color: #000000bb;
+  border: #ffffff solid 3px;
+  font-size: 13px;
+  margin: 0 25px;
+}
+
+.text {
+  margin-bottom: 55px;
+  padding: 0 13px;
+}
+
+.second-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .polygon, .polygonlast {
+  max-width: 165px;
+}
+
+main a {
+  color: #000000;
+  font-size: 20px;
+ }
+
+.polygonlast {
+  margin-top: 45px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 55px 0;
+  -webkit-text-stroke: #000000 1px;
+}
+
+.hours {
+  margin-bottom: 30px;
+  padding: 10px 30px 20px;
+  text-align: center;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.highlight {
+  font-size: 9px;
+  margin: 45px 0 0;
+  text-align: left;
+}
+
