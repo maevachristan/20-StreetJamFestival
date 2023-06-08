@@ -16,6 +16,7 @@ img {
 p {
   color: #ffffff;
   font-family: 'Krub', sans-serif;
+  font-size: 12px;
 }
 
 h2, h3, h4, h5, a {
@@ -41,7 +42,7 @@ h1 {
   padding: 0 30px;
 }
 
-.menu {
+.menu, .small-menu {
   display: flex;
   flex-direction: column;
   margin: 35px;
@@ -55,9 +56,11 @@ h1 {
 .polygon {
   margin: auto;
   max-width: 200px;
-  padding: 30px 0 30px 15px;
-  width: 100%;
-  height: auto;
+  padding: 20px 0 20px 15px;
+}
+
+.eat {
+  padding: 40px 20px 40px 0;
 }
 
 .festival, .food, .networks {
@@ -75,8 +78,8 @@ h1 {
 }
 
 .food {
-  top: 52%;
-  left: 55%;
+  top: 51%;
+  left: 50%;
 }
 
 .networks {
@@ -114,13 +117,68 @@ h2 {
 .text, .hours, .misterflow {
   background-color: #000000bb;
   border: #ffffff solid 3px;
-  font-size: 13px;
   margin: 0 25px;
 }
 
 .text {
   margin-bottom: 55px;
   padding: 0 13px;
+}
+
+.tags-box {
+  margin: auto;
+  max-width: 185px;
+  padding: 5px 15px 5px 0;
+}
+
+.skate-box {
+  margin: auto;
+  max-width: 150px;
+  padding: 30px 0 40px 15px;
+}
+
+.music-box {
+  margin: auto;
+  max-width: 160px;
+  padding: 20px 30px 5px 0;
+}
+
+.tags, .skate, .music {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  text-align: center;
+  -webkit-text-stroke: #000000 0.5px;
+}
+
+.tags {
+  font-size: 17px;
+  top: 48%;
+  left: 53%;
+}
+
+.tags:hover {
+  color: #ff0094;
+}
+
+.skate {
+  font-size: 20px;
+  top: 48%;
+  left: 51%;
+}
+
+.skate:hover {
+  color: #ff0094;
+}
+
+.music {
+  font-size: 18px;
+  top: 60%;
+  left: 53%;
+}
+
+.music:hover {
+  color: #ff0094;
 }
 
 h3 {
@@ -161,19 +219,18 @@ h4 {
 }
 
 .rider {
-  max-width: 220px;
+  max-width: 200px;
   margin: auto;
 }
 
 .legend {
-  font-size: 11px;
-  margin-top: 13px;
+  font-size: 10px;
+  margin: 13px 0 40px 0;
   text-align: center;
   text-transform: uppercase;
 }
 
 .foodtruck {
-  font-size: 12px;
   padding: 0 15px 10px;
 }
 
@@ -183,7 +240,48 @@ h4 {
 
 .secondclip {
   background-color: #ffffff;
-  border: #000000 solid 2px;
-  height: 4px;
+  border: #000000 solid 1px;
+  height: 3px;
   max-width: 210px;
+}
+
+.accounts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  padding-bottom: 30px;
+}
+
+.accounts img {
+  max-width: 60px;
+}
+
+.mail {
+  margin-top: 10px;
+}
+
+.address-box {
+  margin: auto;
+  max-width: 210px;
+  padding-right: 10px;
+}
+
+.address p, .address a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.address p {
+  top: 30%;
+  left: 50%;
+}
+
+.address a {
+  font-family: 'Krub', sans-serif;
+  font-size: 12px;
+  text-transform: lowercase;
+  top: 70%;
+  left: 50%;
 }
