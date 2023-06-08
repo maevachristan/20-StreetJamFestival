@@ -221,7 +221,6 @@ h4 {
 .legend {
   font-size: 10px;
   margin: 13px 0 40px 0;
-  padding-top: 390px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -282,20 +281,7 @@ h4 {
   left: 50%;
 }
 
-.freestyle {
-  position: relative;
-}
-
-.rider, .sticker {
-  position: absolute;
-}
-
 .rider {
-  max-width: 220px;
-  margin-left: 10px;
-}
-
-.sticker {
-  max-width: 80px;
-  padding: 350px 0 0 160px;
+  max-width: 200px;
+  margin: auto;
 }
