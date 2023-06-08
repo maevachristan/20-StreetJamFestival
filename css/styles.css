@@ -4,8 +4,12 @@ html {
 
 body {
   background-image: url(../img/fond_peinture.jpg);
-  margin: auto;
   max-width: 320px;
+}
+
+body, .polygon, .tags-box, .skate-box, .music-box, .address-box, .rider,
+h4, h5 {
+  margin: auto;
 }
 
 img {
@@ -13,23 +17,13 @@ img {
   max-width: 100%;
 }
 
-p {
-  color: #ffffff;
-  font-family: 'Krub', sans-serif;
-  font-size: 12px;
-}
-
-h2, h3, h4, h5, a {
-  font-family: 'Passion One', cursive;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .connect {
-  display: flex;
   justify-content: flex-end;
   padding: 10px 0;
+}
+
+.connect, .menu, .small-menu, .accounts {
+  display: flex;
 }
 
 .connect img {
@@ -42,19 +36,44 @@ h1 {
   padding: 0 30px;
 }
 
+p {
+  font-size: 12px;
+}
+
+p, h2, h3, h4, h5, .address p, .address a {
+  color: #ffffff;
+}
+
+p, .address a {
+  font-family: 'Krub', sans-serif;
+}
+
+.context {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  transform: rotate(-8deg);
+}
+
+.context, h2, h3, h4, h5, a, .legend {
+  text-transform: uppercase;
+}
+
+.context, .street, .food, .networks, h2, h3, h4, h5, a, .tags, .skate, .music, 
+.hours, .legend, .address p, .address a {
+  text-align: center;
+}
+
 .menu, .small-menu {
-  display: flex;
   flex-direction: column;
   margin: 35px;
 }
 
 .container {
   position: relative;
-  width: 100%;
 }
 
 .polygon {
-  margin: auto;
   max-width: 200px;
   padding: 20px 0 20px 15px;
 }
@@ -64,12 +83,14 @@ h1 {
 }
 
 .street, .food, .networks {
-  position: absolute;
-  transform: translate(-50%, -50%);
   color: #000000;
   font-size: 23px;
-  text-align: center;
   -webkit-text-stroke: #000000 0.5px;
+}
+
+.street, .food, .networks, .tags, .skate, .music, .address p, .address a {
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .street {
@@ -91,24 +112,22 @@ h1 {
   color: #02fa22;
 }
 
-.context {
-  font-size: 20px;
-  font-weight: 600;
-  padding-bottom: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  transform: rotate(-8deg);
+.firstclip, .secondclip {
+  background-color: #ffffff;
 }
 
 .firstclip {
-  background-color: #ffffff;
   border: #000000 solid 3px;
   height: 8px;
   max-width: 245px;
 }
 
+h2, h3, h4, h5, a {
+  font-family: 'Passion One', cursive;
+  text-decoration: none;
+}
+
 h2 {
-  color: #ffffff;
   font-size: 45px;
   margin: 55px 0;
   -webkit-text-stroke: #000000 1.25px;
@@ -126,29 +145,18 @@ h2 {
 }
 
 .tags-box {
-  margin: auto;
   max-width: 185px;
   padding: 5px 15px 5px 0;
 }
 
 .skate-box {
-  margin: auto;
   max-width: 150px;
   padding: 30px 0 40px 15px;
 }
 
 .music-box {
-  margin: auto;
   max-width: 160px;
   padding: 20px 30px 5px 0;
-}
-
-.tags, .skate, .music {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  color: #000000;
-  text-align: center;
-  -webkit-text-stroke: #000000 0.5px;
 }
 
 .tags {
@@ -157,18 +165,10 @@ h2 {
   left: 53%;
 }
 
-.tags:hover {
-  color: #ff0094;
-}
-
 .skate {
   font-size: 20px;
   top: 48%;
   left: 51%;
-}
-
-.skate:hover {
-  color: #ff0094;
 }
 
 .music {
@@ -177,12 +177,16 @@ h2 {
   left: 53%;
 }
 
-.music:hover {
+.tags, .skate, .music {
+  color: #000000;
+  -webkit-text-stroke: #000000 0.5px;
+}
+
+.small-menu a:hover {
   color: #ff0094;
 }
 
 h3 {
-  color: #ffffff;
   font-size: 30px;
   margin: 55px 0;
   -webkit-text-stroke: #000000 1px;
@@ -190,13 +194,10 @@ h3 {
 
 .hours {
   padding: 10px 30px 20px;
-  text-align: center;
 }
 
 h5 {
-  color: #ffffff;
   font-size: 20px;
-  margin: auto;
   padding-top: 20px;
 }
 
@@ -207,9 +208,7 @@ h5 {
 }
 
 h4 {
-  color: #ffffff;
   font-size: 25px;
-  margin: auto;
   padding: 30px 0 20px;
 }
 
@@ -218,11 +217,13 @@ h4 {
   padding: 0 13px;
 }
 
+.rider {
+  max-width: 200px;
+}
+
 .legend {
   font-size: 10px;
   margin: 13px 0 40px 0;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .foodtruck {
@@ -234,14 +235,29 @@ h4 {
 }
 
 .secondclip {
-  background-color: #ffffff;
   border: #000000 solid 1px;
   height: 3px;
   max-width: 210px;
 }
 
+.address-box {
+  max-width: 210px;
+  padding-right: 10px;
+}
+
+.address p {
+  top: 30%;
+  left: 50%;
+}
+
+.address a {
+  font-size: 12px;
+  text-transform: lowercase;
+  top: 70%;
+  left: 50%;
+}
+
 .accounts {
-  display: flex;
   justify-content: space-between;
   margin: 0 40px;
   padding-bottom: 30px;
@@ -253,35 +269,4 @@ h4 {
 
 .mail {
   margin-top: 10px;
-}
-
-.address-box {
-  margin: auto;
-  max-width: 210px;
-  padding-right: 10px;
-}
-
-.address p, .address a {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  text-align: center;
-}
-
-.address p {
-  top: 30%;
-  left: 50%;
-}
-
-.address a {
-  font-family: 'Krub', sans-serif;
-  font-size: 12px;
-  text-transform: lowercase;
-  top: 70%;
-  left: 50%;
-}
-
-.rider {
-  max-width: 200px;
-  margin: auto;
 }
